@@ -30,8 +30,8 @@ for (let i = 0; i < transacciones.length; i++) {
     // Bug 3: Coerción de tipos oculta
     
         
-    if (typeof transaccion !== "number" && isNaN(Number(transaccion))) {
-        console.log("Texto encontrado");
+    if (isNaN(Number(transaccion))) {
+        console.log(`texto encontrado: ${transaccion}`);
         continue;
         // Falta algo aquí para saltar a la siguiente vuelta...
     }
