@@ -64,6 +64,7 @@ convertidas y optimizadas con Squoosh.
 - **Fuente:** [Pixabay — Vídeo 161334](https://pixabay.com/es/videos/exoplanetas-nave-extraterrestre-ovni-161334/).
 - **Edición y conversión:** Video Converter.
 - **Uso:** presentación audiovisual del universo de Nébula.
+- **codec:** H.264
 
 ### Audio ambiental
 
