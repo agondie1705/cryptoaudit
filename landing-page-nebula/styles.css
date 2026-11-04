@@ -1,0 +1,232 @@
+
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.6;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 480px;
+    padding: 70px 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background:
+        linear-gradient(
+            rgba(255,255,255,0.85),
+            rgba(255,255,255,0.92)
+        ),
+        url("../img/hero.webp") center / cover;
+}
+
+.hero img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+}
+
+.hero h1 {
+    font-size: clamp(3.5rem, 9vw, 6rem);
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    margin-top: 5px;
+}
+
+.intro {
+    max-width: 600px;
+    margin-top: 20px;
+    color: #555555;
+}
+
+/* PRESENTACIÓN */
+
+.presentation {
+    max-width: 1200px;
+    margin: 70px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 45px;
+    align-items: center;
+}
+
+.video-container {
+    width: 100%;
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #222222;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    color: #666666;
+    margin-top: 8px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.contact-button {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 230px;
+    min-height: 80px;
+    padding: 15px 30px;
+
+    border: 2px solid #111111;
+    border-radius: 25px;
+
+    color: #111111;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    transition: background 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background: #111111;
+    color: white;
+}
+
+.contact-button img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+.contact-button span {
+    position: relative;
+}
+
+/* GALERÍA */
+
+.gallery {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery h2,
+.audio-section h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #666666;
+    margin-bottom: 35px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery-grid figure {
+    overflow: hidden;
+    border: 2px solid #222222;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.gallery-grid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 400 / 250;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+
+.gallery-grid figure:hover img {
+    transform: scale(1.04);
+}
+
+.gallery-grid figcaption {
+    padding: 10px;
+}
+
+/* AUDIO */
+
+.audio-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.audio-section p {
+    margin-bottom: 20px;
+}
+
+.audio-section audio {
+    width: min(100%, 450px);
+}
+
+/* FOOTER */
+
+footer {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* DISEÑO RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .presentation {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+        margin: auto;
+    }
+
+    .hero {
+        min-height: 400px;
+    }
+
+}
