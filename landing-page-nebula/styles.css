@@ -1,5 +1,5 @@
 
-/* CONFIGURACIÓN GENERAL */
+/* configuracion general */
 
 * {
     margin: 0;
@@ -14,7 +14,7 @@ body {
     line-height: 1.6;
 }
 
-/* HERO */
+/* hero */
 
 .hero {
     min-height: 480px;
@@ -27,11 +27,8 @@ body {
     align-items: center;
 
     background:
-        linear-gradient(
-            rgba(255,255,255,0.85),
-            rgba(255,255,255,0.92)
-        ),
-        url("../img/hero.webp") center / cover;
+
+        url("assets/img/hero.webp") center / cover;
 }
 
 .hero img {
@@ -54,10 +51,37 @@ body {
 .intro {
     max-width: 600px;
     margin-top: 20px;
-    color: #555555;
+    color: #ffffff;
+}
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.75;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+/*logo*/
+.logo {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    z-index: 3;
 }
 
-/* PRESENTACIÓN */
+.logo img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+/* presentacion */
 
 .presentation {
     max-width: 1200px;
@@ -80,6 +104,7 @@ body {
     height: auto;
     border: 2px solid #222222;
 }
+
 
 figcaption {
     font-size: 0.8rem;
@@ -106,7 +131,6 @@ figcaption {
     min-height: 80px;
     padding: 15px 30px;
 
-    border: 2px solid #111111;
     border-radius: 25px;
 
     color: #111111;
@@ -118,7 +142,7 @@ figcaption {
 }
 
 .contact-button:hover {
-    background: #111111;
+    background: #70e9d3;
     color: white;
 }
 
@@ -127,7 +151,6 @@ figcaption {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    opacity: 0.15;
     pointer-events: none;
 }
 
@@ -135,7 +158,7 @@ figcaption {
     position: relative;
 }
 
-/* GALERÍA */
+/* galeria */
 
 .gallery {
     max-width: 1200px;
@@ -185,7 +208,7 @@ figcaption {
     padding: 10px;
 }
 
-/* AUDIO */
+/* audio */
 
 .audio-section {
     padding: 60px 20px;
@@ -201,7 +224,7 @@ figcaption {
     width: min(100%, 450px);
 }
 
-/* FOOTER */
+/* footer */
 
 footer {
     padding: 30px 20px;
@@ -227,6 +250,27 @@ footer {
 
     .hero {
         min-height: 400px;
+    }
+    .logo {
+    top: 15px;
+    right: 15px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+@media (max-width: 480px) {
+    .hero {
+        min-height: 350px;
+    }
+    .hero h1 {
+        font-size: 3rem;
+    }
+    .subtitle {
+        font-size: 1rem;
     }
 
 }
