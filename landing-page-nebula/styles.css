@@ -1,4 +1,3 @@
-
 /* configuracion general */
 
 * {
@@ -26,9 +25,8 @@ body {
     justify-content: center;
     align-items: center;
 
-    background:
-
-        url("assets/img/hero.webp") center / cover;
+    /* la imagen ocupa todo el fondo sin deformarse */
+    background: url("assets/img/hero.webp") center / cover;
 }
 
 .hero img {
@@ -53,6 +51,8 @@ body {
     margin-top: 20px;
     color: #ffffff;
 }
+
+/* permite colocar la imagen de fondo detrás del contenido */
 .hero-background {
     position: absolute;
     top: 0;
@@ -63,12 +63,16 @@ body {
     object-position: center;
     opacity: 0.75;
 }
+
+/* mantiene el texto por delante de la imagen */
 .hero-content {
     position: relative;
     z-index: 2;
     color: white;
 }
-/*logo*/
+
+/* logo */
+
 .logo {
     position: absolute;
     top: 25px;
@@ -81,6 +85,7 @@ body {
     height: 65px;
     object-fit: contain;
 }
+
 /* presentacion */
 
 .presentation {
@@ -88,6 +93,7 @@ body {
     margin: 70px auto;
     padding: 20px;
 
+    /* coloca el video y el contacto en dos columnas */
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     gap: 45px;
@@ -104,7 +110,6 @@ body {
     height: auto;
     border: 2px solid #222222;
 }
-
 
 figcaption {
     font-size: 0.8rem;
@@ -138,6 +143,7 @@ figcaption {
     font-size: 1.4rem;
     font-weight: bold;
 
+    /* suaviza el cambio de color al pasar el raton */
     transition: background 0.3s, color 0.3s;
 }
 
@@ -146,6 +152,7 @@ figcaption {
     color: white;
 }
 
+/* la imagen queda detrás del texto del boton */
 .contact-button img {
     position: absolute;
     width: 100%;
@@ -179,6 +186,7 @@ figcaption {
     margin-bottom: 35px;
 }
 
+/* reparte las imagenes en tres columnas */
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -200,6 +208,7 @@ figcaption {
     transition: transform 0.4s;
 }
 
+/* amplía un poco la imagen al pasar el raton */
 .gallery-grid figure:hover img {
     transform: scale(1.04);
 }
@@ -234,14 +243,16 @@ footer {
     font-size: 0.9rem;
 }
 
-/* DISEÑO RESPONSIVE */
+/* diseño responsive */
 
 @media (max-width: 768px) {
 
+    /* coloca el video y el contacto uno debajo del otro */
     .presentation {
         grid-template-columns: 1fr;
     }
 
+    /* muestra la galeria en una sola columna */
     .gallery-grid {
         grid-template-columns: 1fr;
         max-width: 450px;
@@ -251,9 +262,10 @@ footer {
     .hero {
         min-height: 400px;
     }
+
     .logo {
-    top: 15px;
-    right: 15px;
+        top: 15px;
+        right: 15px;
     }
 
     .logo img {
@@ -262,13 +274,18 @@ footer {
     }
 
 }
+
 @media (max-width: 480px) {
+
+    /* ajusta los tamaños para pantallas pequeñas */
     .hero {
         min-height: 350px;
     }
+
     .hero h1 {
         font-size: 3rem;
     }
+
     .subtitle {
         font-size: 1rem;
     }
