@@ -58,18 +58,27 @@ convertidas y optimizadas con Squoosh.
 - montado a mano
 - con gimp
   
-  formatos
-<img width="882" height="321" alt="image" src="https://github.com/user-attachments/assets/354cba6b-7cf9-4df3-8330-179dc2217a53" />
-tamaño gift
-<img width="532" height="625" alt="image" src="https://github.com/user-attachments/assets/0c0cde1c-ad9a-4e3d-8340-4509d5f86a60" />
-tamaño hero
-<img width="1412" height="731" alt="image" src="https://github.com/user-attachments/assets/9880d1f8-be48-4a0d-9206-97cb8956c831" />
-tamaño img1
-<img width="1422" height="732" alt="image" src="https://github.com/user-attachments/assets/947a6261-0c7a-4b81-9a8b-089c3f6d9a61" />
-tamaño img2
-<img width="1422" height="730" alt="image" src="https://github.com/user-attachments/assets/77d7bb75-3ecc-46a5-a148-b4d9e75dd2fe" />
-tamaño img3
-<img width="1422" height="732" alt="image" src="https://github.com/user-attachments/assets/5bb4b0a4-f437-4329-b58a-82cbc2497a42" />
+### formatos
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/354cba6b-7cf9-4df3-8330-179dc2217a53" />
+
+### tamaño gift
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/0c0cde1c-ad9a-4e3d-8340-4509d5f86a60" />
+
+### tamaño hero
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/9880d1f8-be48-4a0d-9206-97cb8956c831" />
+https://unsplash.com/es/fotos/aurora-boreal-mfSY12Au5o4
+
+### tamaño img1
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/947a6261-0c7a-4b81-9a8b-089c3f6d9a61" />
+https://pixabay.com/es/photos/estrellas-galaxia-espacio-67616/
+
+### tamaño img2
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/77d7bb75-3ecc-46a5-a148-b4d9e75dd2fe" />
+https://pixabay.com/es/photos/fondo-de-navidad-nebula-de-ori%C3%B3n-11107/
+
+### tamaño img3
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/5bb4b0a4-f437-4329-b58a-82cbc2497a42" />
+https://pixabay.com/es/photos/nebulosa-laguna-messier-8-ngc-6523-11143/
 
 ### Vídeo de presentación
 
