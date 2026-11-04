@@ -56,6 +56,20 @@ convertidas y optimizadas con Squoosh.
 
 - Las imágenes utilizadas para la animación han sido creadas con inteligencia artificial.
 - montado a mano
+- con gimp
+  
+  formatos
+<img width="882" height="321" alt="image" src="https://github.com/user-attachments/assets/354cba6b-7cf9-4df3-8330-179dc2217a53" />
+tamaño gift
+<img width="532" height="625" alt="image" src="https://github.com/user-attachments/assets/0c0cde1c-ad9a-4e3d-8340-4509d5f86a60" />
+tamaño hero
+<img width="1412" height="731" alt="image" src="https://github.com/user-attachments/assets/9880d1f8-be48-4a0d-9206-97cb8956c831" />
+tamaño img1
+<img width="1422" height="732" alt="image" src="https://github.com/user-attachments/assets/947a6261-0c7a-4b81-9a8b-089c3f6d9a61" />
+tamaño img2
+<img width="1422" height="730" alt="image" src="https://github.com/user-attachments/assets/77d7bb75-3ecc-46a5-a148-b4d9e75dd2fe" />
+tamaño img3
+<img width="1422" height="732" alt="image" src="https://github.com/user-attachments/assets/5bb4b0a4-f437-4329-b58a-82cbc2497a42" />
 
 ### Vídeo de presentación
 
@@ -65,6 +79,10 @@ convertidas y optimizadas con Squoosh.
 - **Edición y conversión:** Video Converter.
 - **Uso:** presentación audiovisual del universo de Nébula.
 - **codec:** H.264
+formato
+<img width="155" height="112" alt="image" src="https://github.com/user-attachments/assets/f2a89b24-178e-4e75-bb19-298cd58a0178" />
+peso
+<img width="310" height="145" alt="image" src="https://github.com/user-attachments/assets/86e18356-380b-4167-a374-0eb9097d9b73" />
 
 ### Audio ambiental
 
@@ -75,6 +93,10 @@ convertidas y optimizadas con Squoosh.
   - [Online Audio Converter](https://online-audio-converter.com/sp/)
   - [Brisk Audio](https://briskaudio.com/es/trimmanual.html)
   - [FreeConvert MP3 Compressor](https://www.freeconvert.com/es/mp3-compressor/download)
+formato
+<img width="162" height="40" alt="image" src="https://github.com/user-attachments/assets/6eb8b328-ce90-4008-95fc-728301b683f3" />
+tamaño
+<img width="465" height="537" alt="image" src="https://github.com/user-attachments/assets/8d958310-2f24-4605-8a7f-6a2acc813b12" />
 
 El audio se integra mediante el reproductor HTML5 y está configurado para repetirse al terminar.
 
