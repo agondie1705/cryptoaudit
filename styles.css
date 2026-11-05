@@ -13,6 +13,36 @@ body {
     line-height: 1.6;
 }
 
+/* navegacion */
+
+.site-nav {
+    padding: 12px 20px;
+    background-color: #111111;
+}
+
+.site-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px 32px;
+    list-style: none;
+}
+
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+    color: #70e9d3;
+}
+
+.site-nav a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+
 /* hero */
 
 .hero {
@@ -24,6 +54,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
 
     /* la imagen ocupa todo el fondo sin deformarse */
     background: url("assets/img/hero.webp") center / cover;

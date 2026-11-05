@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="site-nav" aria-label="Navegación principal">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#presentacion">Presentación</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#ambiente">Ambiente</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
     <!-- CABECERA / HERO -->
-    <header class="hero">
+    <header class="hero" id="inicio">
         <img src="assets/img/logo.svg"alt="Logotipo de Nébula"width="100"height="100">
         <div class="hero-content">
         <h1>Nébula</h1>
@@ -22,7 +31,7 @@
     </header>
     <main>
         <!-- video y contacto -->
-        <section class="presentation">
+        <section class="presentation" id="presentacion">
             <figure class="video-container">
                 <video controls preload="metadata"poster="assets/img/poster.webp"width="1280"height="720">
                     <source src="assets/video/nebula-intro.webm"type="video/mp4">
@@ -33,7 +42,7 @@
                     </figcaption>
             </figure>
 
-            <div class="contact">
+            <div class="contact" id="contacto">
 
                 <h2>¿Creamos otro universo?</h2>
 
@@ -43,7 +52,7 @@
             </div>
         </section>
         <!-- galeria -->
-        <section class="gallery">
+        <section class="gallery" id="galeria">
             <h2>Galería</h2>
             <p class="section-description">Una colección de paisajes espaciales.</p>
 
@@ -74,7 +83,7 @@
             </div>
         </section>
         <!-- audio -->
-        <section class="audio-section">
+        <section class="audio-section" id="ambiente">
             <h2>Ambiente espacial</h2>
             <p>Escucha la atmósfera sonora del universo Nébula.</p>
             <!--autoplay loop no me funciona chrome me lo bloquea-->
