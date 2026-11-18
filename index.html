@@ -145,10 +145,22 @@
             <h2>Ambiente espacial</h2>
             <p>Escucha la atmósfera sonora del universo Nébula.</p>
             <!--autoplay loop no me funciona chrome me lo bloquea-->
-            <audio controls loop preload="none">
-                <source src="assets/audio/ambient.mp3" type="audio/mpeg">
-                Tu navegador no soporta audio.
-            </audio>
+            <!-- Reproductor de ambiente -->
+            <div class="audio-player">
+
+                <audio id="ambient-audio" loop preload="none">
+                    <source src="assets/audio/ambient.mp3" type="audio/mpeg">
+                </audio>
+
+                <button id="play-audio" aria-label="Reproducir audio">
+                    Reproducir
+                </button>
+
+                <button id="mute-audio" aria-label="Silenciar audio">
+                    Silenciar
+                </button>
+
+            </div>
             <figcaption>
                 sub_clair en Pixabay
             </figcaption>

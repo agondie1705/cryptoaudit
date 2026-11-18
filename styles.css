@@ -393,7 +393,27 @@ figcaption {
 .audio-section audio {
     width: min(100%, 450px);
 }
+/* Controles personalizados del audio */
+.audio-player {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
 
+.audio-player button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.audio-player button:hover,
+.audio-player button:focus-visible {
+    background: #7652e2;
+    color: white;
+}
 /* footer */
 
 footer {
@@ -403,7 +423,18 @@ footer {
     color: white;
     font-size: 0.9rem;
 }
+/* Foco visible para navegar con teclado */
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid #70e9d3;
+    outline-offset: 4px;
+}
 
+/* Evita que las imágenes se salgan de su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+}
 /* diseño responsive */
 
 @media (max-width: 768px) {

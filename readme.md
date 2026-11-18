@@ -162,3 +162,13 @@ Los elementos creados para el proyecto, como el logotipo y las imágenes generad
 ## 8. Objetivo final
 
 El resultado es una landing page multimedia que presenta la identidad visual de Nébula y combina diseño web, imágenes, vídeo y sonido ambiental en una experiencia de temática espacial.
+## 9. Funcionalidades añadidas
+
+- Logo SVG integrado directamente en el HTML.
+- Efectos visuales al pasar el ratón por el logo.
+- Galería interactiva con cambio de imagen.
+- Ventana modal para reproducir el vídeo.
+- Reproductor de audio con controles personalizados.
+- Mejoras de accesibilidad y navegación con teclado.
+- Adaptación del diseño a dispositivos móviles.
+- Página independiente de créditos.

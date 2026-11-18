@@ -48,3 +48,27 @@ document.addEventListener("keydown", (event) => {
         closeVideoModal();
     }
 });
+// Controles del reproductor de audio
+const ambientAudio = document.querySelector("#ambient-audio");
+const playAudio = document.querySelector("#play-audio");
+const muteAudio = document.querySelector("#mute-audio");
+
+// Reproduce o pausa el audio
+playAudio.addEventListener("click", () => {
+    if (ambientAudio.paused) {
+        ambientAudio.play();
+        playAudio.textContent = "Pausar";
+    } else {
+        ambientAudio.pause();
+        playAudio.textContent = "Reproducir";
+    }
+});
+
+// Activa o desactiva el sonido
+muteAudio.addEventListener("click", () => {
+    ambientAudio.muted = !ambientAudio.muted;
+
+    muteAudio.textContent = ambientAudio.muted
+        ? "Activar sonido"
+        : "Silenciar";
+});
