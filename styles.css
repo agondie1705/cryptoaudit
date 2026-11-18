@@ -116,7 +116,44 @@ body {
     height: 65px;
     object-fit: contain;
 }
+/* Estilos y efectos del logo */
+.logo-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
 
+.logo-svg {
+    width: 100px;
+    height: 100px;
+}
+
+/* Efecto al pasar el ratón */
+.logo-link:hover,
+.logo-link:focus-visible {
+    transform: scale(1.08);
+}
+
+/* Cambio de color del símbolo */
+.logo-link:hover .logo-symbol,
+.logo-link:focus-visible .logo-symbol {
+    stroke: #70e9d3;
+}
+
+/* Cambio de color del degradado */
+.logo-link:hover .ring-stop-1,
+.logo-link:focus-visible .ring-stop-1 {
+    stop-color: #70e9d3;
+}
+
+.logo-link:hover .ring-stop-2,
+.logo-link:focus-visible .ring-stop-2 {
+    stop-color: #8a8cff;
+}
+
+.logo-link:hover .ring-stop-3,
+.logo-link:focus-visible .ring-stop-3 {
+    stop-color: #5bd5ff;
+}
 /* presentacion */
 
 .presentation {
