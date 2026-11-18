@@ -7,21 +7,21 @@ Nébula es una landing page de un artista digital ficticio especializado en pais
 El objetivo de la página es presentar su universo visual mediante imágenes, un vídeo de presentación, audio ambiental y una galería de recursos gráficos.
 
 ## 2. Estructura del proyecto
-
+(habia un logo.svg pero lo he dejado inline)
 ```text
 nebula/
 ├── index.html
+├── script.js
 ├── styles.css
 ├── README.md
 └── assets/
     ├── img/
     │   ├── hero.webp
-    │   ├── logo.svg
     │   ├── poster.webp
     │   ├── imágenes de galería y botones
     │   └── cta-animation.gif
     ├── video/
-    │   └── nebula-intro.mp4
+    │   └── nebula-intro.webm
     ├── audio/
     │   └── ambient.mp3
 ```
@@ -46,9 +46,9 @@ nebula/
 
 | Imagen | Recurso | Autor |
 |---|---|---|
-| Imagen 1 | Nebulosa roja y naranja brillante en el espacio profundo | wikiImages |
-| Imagen 2 | Nebulosa de Orión en el espacio profundo | wikiImages |
-| Imagen 3 | Nebulosa de la Laguna en el espacio profundo | wikiImages |
+| Imagen 1 | Nebulosa roja y naranja brillante en el espacio profundo | pixabay |
+| Imagen 2 | Nebulosa de Orión en el espacio profundo | pixabay |
+| Imagen 3 | Nebulosa de la Laguna en el espacio profundo | pixabay |
 
 convertidas y optimizadas con Squoosh.
 
@@ -164,11 +164,10 @@ Los elementos creados para el proyecto, como el logotipo y las imágenes generad
 El resultado es una landing page multimedia que presenta la identidad visual de Nébula y combina diseño web, imágenes, vídeo y sonido ambiental en una experiencia de temática espacial.
 ## 9. Funcionalidades añadidas
 
-- Logo SVG integrado directamente en el HTML.
+- Logo SVG integrado directamente en el HTML.(logo hecho a mano luego pasado a SVG)
 - Efectos visuales al pasar el ratón por el logo.
 - Galería interactiva con cambio de imagen.
 - Ventana modal para reproducir el vídeo.
 - Reproductor de audio con controles personalizados.
 - Mejoras de accesibilidad y navegación con teclado.
 - Adaptación del diseño a dispositivos móviles.
-- Página independiente de créditos.
